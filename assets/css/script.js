@@ -51,6 +51,7 @@ if (menuBtn) {
     menuBtn.addEventListener('click', () => {
         navLinks.classList.toggle('mobile-active');
         // Add CSS for mobile-active via script if not in styles.css
+        <script src="script.js"></script>
         if (navLinks.classList.contains('mobile-active')) {
             navLinks.style.display = 'flex';
             navLinks.style.flexDirection = 'column';
